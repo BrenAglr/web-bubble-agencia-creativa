@@ -48,21 +48,24 @@ Incluye redes sociales, dirección de mail y otros canales disponibles.
 
 ## ✅ Pendientes / To-Do
 
-- [ ] Estructura inicial del proyecto (Next.js + Tailwind)
-- [ ] Navbar responsive
-- [ ] Home con presentación general
-- [ ] Banner Slogan
-- [ ] Secciones de servicios
-- [ ] Componente servicios de la Home
-- [ ] Listados de los Departamentos
-- [ ] Componente de logos clientes
-- [ ] Seccion de clientes
-- [ ] boton contacto
-- [ ] Footer
-- [ ] Banner de accion
+- [✅] Estructura inicial del proyecto (Next.js + Tailwind)
+- [✅] Navbar responsive
+- [✅] Home con presentación general
+- [✅] Banner Slogan
+- [✅] Secciones de servicios
+- [✅] Componente servicios de la Home
+- [✅] Listados de los Departamentos
+- [✅] Componente de logos clientes
+- [✅] Seccion de clientes
+- [✅] boton contacto
+- [✅] Footer
 - [ ] Página de contacto con formulario
 - [ ] Agregar animaciones e interacciones
-- [ ] Hcer q la pag completa sea responsive
+- [ ] Hacer q la pag completa sea responsive
+- [ ] Vista de clientes
+- [ ] Funcionalidad del form 
+- [ ] Verificaciones del Form
+- [ ] 
 
 ---
 
