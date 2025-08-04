@@ -1,80 +1,36 @@
-# 💻 web-bubble-agencia-creativa
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-Repositorio del sitio web corporativo para **Bubble**, una agencia creativa formada por cuatro socias apasionadas por el diseño, la comunicación, el código y la creatividad.  
-Este proyecto es llevado adelante por el equipo y desarrollado por la encargada del área web (¡yo!).
+## Getting Started
 
----
+First, run the development server:
 
-## 🌐 Objetivo del sitio
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-Crear una página web moderna, clara y funcional que represente la identidad de **Bubble** y permita a potenciales clientes conocer nuestros servicios, experiencias y formas de contacto.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
----
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-## 📄 Vistas principales del sitio
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-### 🏠 Home
-Página de bienvenida con una visión general de la agencia:
-- ¿Quiénes somos?
-- ¿Qué hacemos?
-- Nuestros servicios
-- Clientes destacados
-- Contacto rápido
+## Learn More
 
----
+To learn more about Next.js, take a look at the following resources:
 
-### 🧩 Servicios
-Vista con el detalle de cada una de las áreas que componen la agencia:
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-- **BubbleBrain**: Estrategia, ideas, community management
-- **BubbleStudio**: Fotografía, producción audiovisual
-- **BubbleLab**: Diseño gráfico, branding, identidad visual
-- **BubbleCode**: Desarrollo web, tecnología creativa
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-Cada sección tendrá su propia página explicando en profundidad qué ofrece.
+## Deploy on Vercel
 
----
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-### 👥 Clientes
-Sección donde se presentarán nuestros clientes con ejemplos de trabajos realizados con cada uno.
-
----
-
-### ✉️ Contacto
-Formulario y datos para que potenciales clientes puedan contactarnos.  
-Incluye redes sociales, dirección de mail y otros canales disponibles.
-
----
-
-## ✅ Pendientes / To-Do
-
-- [✅] Estructura inicial del proyecto (Next.js + Tailwind)
-- [✅] Navbar responsive
-- [✅] Home con presentación general
-- [✅] Banner Slogan
-- [✅] Secciones de servicios
-- [✅] Componente servicios de la Home
-- [✅] Listados de los Departamentos
-- [✅] Componente de logos clientes
-- [✅] Seccion de clientes
-- [✅] boton contacto
-- [✅] Footer
-- [ ] Página de contacto con formulario
-- [ ] Agregar animaciones e interacciones
-- [ ] Hacer q la pag completa sea responsive
-- [ ] Vista de clientes
-- [ ] Funcionalidad del form 
-- [ ] Verificaciones del Form
-- [ ] 
-
----
-
-## 🚀 Tecnologías a utilizar
-- Next.js
-- TypeScript
-- Tailwind CSS
-- Animaciones con Framer Motion
-
----
-
-> _Creado con amor por el equipo de **Bubble** ✨_
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.

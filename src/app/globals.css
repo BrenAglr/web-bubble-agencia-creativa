@@ -1,0 +1,74 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Fuente personalizada */
+@font-face {
+  font-family: "Brasley";
+  src: url("/fonts/brasley-medium.ttf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GatwickBold';
+  src: url('/fonts/Gatwick-Bold.otf') format('opentype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GatwickUltraLight';
+  src: url('/fonts/Gatwick-UltraLight.otf') format('opentype');
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SeymourOne';
+  src: url('/fonts/SeymourOne-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+/* Colores base */
+:root {
+  --background: #f9fafb;
+  --foreground: #171717;
+}
+
+/* Aplica Brasley a todo el sitio por defecto */
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: 'Brasley', sans-serif;
+}
+
+@layer utilities {
+  @keyframes floatUpDown {
+    0%, 100% {
+      transform: translateY(0px);
+    }
+    50% {
+      transform: translateY(-20px);
+    }
+  }
+
+  @keyframes floatLeftRight {
+    0%, 100% {
+      transform: translateX(0px);
+    }
+    50% {
+      transform: translateX(20px);
+    }
+  }
+
+  .animate-float {
+    animation: floatUpDown 6s ease-in-out infinite;
+  }
+
+  .animate-float-x {
+    animation: floatLeftRight 8s ease-in-out infinite;
+  }
+}
